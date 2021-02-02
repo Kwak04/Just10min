@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/colorTransparent" />
+                    <padding
+                        android:bottom="@dimen/paddingButtonBackground"
+                        android:left="@dimen/paddingButtonBackground"
+                        android:right="@dimen/paddingButtonBackground"
+                        android:top="@dimen/paddingButtonBackground" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/ic_settings" />
+        </layer-list>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/colorSemiTransparent" />
+                    <padding
+                        android:bottom="@dimen/paddingButtonBackground"
+                        android:left="@dimen/paddingButtonBackground"
+                        android:right="@dimen/paddingButtonBackground"
+                        android:top="@dimen/paddingButtonBackground" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/ic_settings" />
+        </layer-list>
+    </item>
+</selector>

@@ -7,4 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Static Colors -->
+    <color name="colorBackground">#281660</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorSemiTransparent">#23000000</color>
+
+    <!-- Mutable Colors -->
+    <color name="colorPoint">#FFFFFF</color>
+    <color name="colorPointSemiTransparent">#B0FFFFFF</color>
 </resources>

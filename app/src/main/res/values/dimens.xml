@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- heights -->
+    <dimen name="heightBars">60dp</dimen>
+
+    <!-- margins -->
+    <dimen name="marginEdge">30dp</dimen>
+
+    <!-- paddings -->
+    <dimen name="paddingButtonBackground">5dp</dimen>
+</resources>

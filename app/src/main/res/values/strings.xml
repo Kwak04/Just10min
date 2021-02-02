@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">Just10Min</string>
+    <string name="app_name">십 분만 잘게요</string>
+
+    <!-- Content Descriptions -->
+    <string name="content_settings">설정 버튼</string>
 </resources>
